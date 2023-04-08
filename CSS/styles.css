@@ -36,7 +36,7 @@ h1{
     font-weight: 100;
 }
 #hello{
-    margin-top: 30px;
+    margin-top: 1.875em;
 }
 .head2{
     color: #006B7D;
@@ -45,59 +45,44 @@ hr{
     border-color: #C3C3C3;
     border-style: none;
     border-top-style: dotted;
-    border-width: 5px;
+    border-width: 0.3125em;
     width: 5%;
-    margin-bottom: 80px;
+    margin-bottom: 5em;
 }
 
 .para{
     line-height: 1;
 }
 #para1{
-    margin-top: 50px;
+    margin-top: 3.125em;
 }
 #para2{  
-    margin-bottom: 60px;
+    margin-bottom: 3.75em;
 }
 
 .profile-img{
-    height: 200px; 
-    width: 200px;
+    height: 12.5em; 
+    width: 12.5em;
 }
-
 .middle-container{
-    margin-top: 70px;
-    margin-bottom: 70px;
-}
-
-#skill-col1{
-    position: relative;
-    top: 0;
-}
-#skill-col2{
-    position: relative;
-    top: 0;
-}
-
-.skill-col{
-    display: inline-block; 
-    width: 40%;
+    margin-top: 4.375em;
+    margin-bottom: 4.375em;
 }
 .skill-row{
     display: block;
-    width: 50%;
-    margin: 75px auto 75px auto;
+    width: 60%;
+    margin: 4.6875em auto 4.6875em auto;
     text-align: left;
 }
 h3{
     color: #03506F;
-    margin-top: 40px;
+    margin-top: 2.5em;
 }
 .skill-img{
     width: 10%;
     float: left;
     margin: auto;
-    margin-right: 15px;
+    margin-right: 0.9375em;
 }
 .skill-head{
     /*color: #03506F;*/
@@ -112,25 +97,27 @@ h3{
     margin: 0 auto;
     text-align: center;
 }
+
 .contact{
     display: block;
     text-align: center;
     justify-content: center;
     box-shadow: inset 0;
-    margin: 60px auto 0 auto;
+    margin: 3.75em auto 0 auto;
 }
 .btn{
     /*color: #03506F;*/
     display: inline-block;
     color: white;
     background-color: #11CDD4;
-    border: solid 1px;  
-    height: 30px;
-    width: 4cm;  
+    border: solid 0.0625em;  
+    height: 1.875em;
+    width: 9.5em;  
     text-decoration-line: none;
     border-radius: 5px;
     border-style: outset;    
-    padding-top: 8px; 
+    padding-top: 0.5em; 
+    /* margin-bottom: ; */
 }
 .btn:hover{
     background: #03506F;
@@ -138,9 +125,9 @@ h3{
 .footer-link{
     display: inline-block;
     color: #006B7D;
-    margin-top: 30px;
-    margin-bottom: 10px;
-    padding: 0 20px;
+    margin-top: 1.875em;
+    margin-bottom: 0.625em;
+    padding: 0 1.25em;
     text-decoration: none;
 }
 .footer-link:hover{
