@@ -9,6 +9,7 @@
     src: url("C:\Users\Trev\Documents\Trevor's work\WebDev\CSS -MySite\fonts\Sacramento");
 }
 body{
+    font-size: 1em;
     display: flex;
     flex-direction: column;
     padding: 0;
@@ -93,7 +94,7 @@ h3{
     display: block;
     background-color: #0199AE;
     width: 100%;
-    height: 7.5rem;
+    height: 8rem;
     margin: 0 auto;
     text-align: center;
 }
