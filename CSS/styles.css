@@ -8,6 +8,56 @@
     font-family: 'Sacramento', cursive;
     src: url("C:\Users\Trev\Documents\Trevor's work\WebDev\CSS -MySite\fonts\Sacramento");
 }
+@media screen and (max-width: 768px){
+    body{
+        font-size: 1em;
+    }
+    .bottom-container{
+        display: block;
+        background-color: #0199AE;
+        width: 100%;
+        height: 8rem;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .contact{
+        display: block;
+        text-align: center;
+        justify-content: center;
+        box-shadow: inset 0;
+        margin: 3.75em auto 0 auto;
+    }
+    .btn{
+        /*color: #03506F;*/
+        display: inline-block;
+        color: white;
+        background-color: #11CDD4;
+        border: solid 0.0625em;  
+        height: 1.875em;
+        width: 9.5em;  
+        text-decoration-line: none;
+        border-radius: 5px;
+        border-style: outset;    
+        padding-top: 0.5em; 
+        /* margin-bottom: ; */
+    }
+    .btn:hover{
+        background: #03506F;
+    }
+    .footer-link{
+        display: inline-block;
+        color: #006B7D;
+        margin-top: 1.875em;
+        margin-bottom: 0.625em;
+        padding: 0 1.25em;
+        text-decoration: none;
+    }
+    .footer-link:hover{
+        color: #F6F6F6;
+    }
+    
+}
 body{
     font-size: 1em;
     display: flex;
